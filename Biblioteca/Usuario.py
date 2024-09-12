@@ -1,5 +1,5 @@
 class usuario:
-    def __inif__(self,nombre,nro_ident,correo,celular,habilitado):
+    def __init__(self,nombre,nro_ident,correo,celular,habilitado):
         self.nombre = nombre
         self.nro_ident = nro_ident
         self.correo = correo 
