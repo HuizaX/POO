@@ -1,3 +1,7 @@
+import detalle_libro
+import Usuario
+
+
 class prestamo():
     def __init__(self,isbn,nro_ident,fecha_prestamo,fecha_entrega,fecha_devolucion):
         self.isbn = isbn
